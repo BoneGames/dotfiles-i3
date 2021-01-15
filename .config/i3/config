@@ -221,7 +221,7 @@ gaps inner 20
 bindsym $mod+F4 exec ~/.config/scripts/tmux-desktop-environment-build-dotfiles.sh
 
 # Launch kill all containers except the desktop environment
-bindsym $mod+F5 exec ~/repositories/sabrehagen/desktop-environment/docker/scripts/kill-all.sh
+bindsym $mod+F5 exec ~/repositories/bonegames/desktop-environment/docker/scripts/kill-all.sh
 
 # Launch kill desktop environment tmux sessions
 bindsym $mod+F6 exec ~/.config/scripts/tmux-kill-desktop-environment-shell-sessions.sh
